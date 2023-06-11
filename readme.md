@@ -1,43 +1,37 @@
-# Este é um teste para desenvolvedores
-
-# possui 5 testes
+# Solução do Teste para Desenvolvedores
 
 ## Introdução
 
-Este projeto possui um banco de dados fake em fakeData.js com apenas um registro.
-A ideia é melhorar e o CRUD escrito nos 4 arquivos de teste abaixo.
+Foram feitas diversas modificações na estrutura inicial do código para se adequarem a um bom padrão de leitura e para se enquadrar nos requisitos do teste com um mínimo de segurança.
 
-Será a validada a forma de escrita de código.
-Escreva códigos que humanos consigam entender.
+Para fins de manipulação os dados do arquivo env serão disponibilizados para o público.
 
-Fique a vontade para fazer modificaçoes nos serviços, comentários em código, estrutura, mas seja objetivo.
+## Inicialização
 
-## teste1.js
+Para inciar o arquivo use o código e a porta 3000 do seu localhost estará iniciada
 
-GET em /user 
+---
 
-Possuimos neste arquivo um serviço que faz uma busca no banco fake e retorna um registro.
-Este código funciona, mas é possivel melhorar.
-Veja o que pode deixar ele melhor escrito e mais performatico.
+npm run dev
 
-## teste2.js
+---
 
-POST em /users, descubra a intenção dele e o corrija.
+## Estrutura do código
 
-## teste3.js
+As soluções do teste 1, 2, 3, 4 estão em userController na pasta controller, enquanto que o middleware de autorização pedido no teste 5 está na pasta middlewares no arquivo auth.js.
 
-Este procura um usuário e o deleta da base.
-Retorne sucesso para o client caso realmente tenha sido excluido e deixe o código mais performatico.
+Em app.js foram definidas as rotas e na pasta routes estão as rotas em si, encontraremos a rota raiz, a rota vazia e as rotas de usuário.
 
-## teste4.js
+As rotas do usuário estão em userRouter.js, através dos métodos e das rotas referentes a '/users' ele coordena a função específica listada em userController.
 
-Atualiza os dados de um usuário especifico.
+Os tratamentos de erros podem ser encontrados na pasta errors e a chave de admin no arquivo .env.
 
-## teste5.js
+Se no header estiver a chave adminkey com o valor chave-de-admin você será aprovado pelo middleware de autorização.
 
-Retorne quantas vezes determinado usuário foi lido no teste1.
+Por fim o banco de dados da lição é o fakeData.js como incialmente especificado só que com maior população.
 
-## teste 6
+## Postman
 
-Definina uma forma de criar permissão para o usuario, defina se o usuário pode deletar ou atualizar usuários. Crie um middleware para validar essas permissões e adicione no teste4 e teste3.
+A exportação das rotas do postman é o arquivo TESTE.postman_collection na raiz do projeto, importe-o para seu postman e com o servidor iniciado comece a fazer as requisições.
 
+Todas as requisições estão prontas, mas no header das requisições do postman 'Delete User', 'Update User Info' e 'Checar consultas ao Usuário' estão o header com a chave adminkey e value chave-de-admin, portanto já estão devidamente autorizadas, se quiser fazer o teste sem a autorização apenas altere o valor da chave.

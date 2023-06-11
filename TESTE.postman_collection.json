@@ -1,0 +1,67 @@
+{
+	"info": {
+		"_postman_id": "edc905db-8b40-4d01-8583-45eb3bd80507",
+		"name": "TESTE",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "16009075",
+		"_collection_link": "https://red-escape-277816.postman.co/workspace/44f7dcb7-a1cb-446f-8313-e68cc9c8572f/collection/16009075-edc905db-8b40-4d01-8583-45eb3bd80507?action=share&creator=16009075&source=collection_link"
+	},
+	"item": [
+		{
+			"name": "RAIZ",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "GET USERS",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Get User",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Create User",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Delete User",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Update User Info",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Checar consultas ao Usuário",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
