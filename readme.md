@@ -8,13 +8,15 @@ Para fins de manipulação os dados do arquivo env serão disponibilizados para 
 
 ## Inicialização
 
-Para inciar o arquivo use o código e a porta 3000 do seu localhost estará iniciada
+Para inciar o programa use o código:
 
 ---
 
 npm run dev
 
 ---
+
+Ele estará sendo executado na porta 3000 de seu localhost
 
 ## Estrutura do código
 
