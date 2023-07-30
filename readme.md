@@ -2,6 +2,8 @@
 
 ## Introdução
 
+Esta é a proposta de exercícios da SCF BRAZIL, um backend constuído em node com rotas que visam manipular as informações de um JSON.
+
 Foram feitas diversas modificações na estrutura inicial do código para se adequarem a um bom padrão de leitura e para se enquadrar nos requisitos do teste com um mínimo de segurança.
 
 Para fins de manipulação os dados do arquivo env serão disponibilizados para o público.
