@@ -8,6 +8,12 @@ Foram feitas diversas modificações na estrutura inicial do código para se ade
 
 Para fins de manipulação os dados do arquivo env serão disponibilizados para o público.
 
+## Links
+
+- [Website de produção na Azure](http://cosmic-azure.duckdns.org/)
+- [Repositório](https://github.com/izaqueIsrael/ScfBrazil)
+
+
 ## Inicialização
 
 Para inciar o programa use o código:
